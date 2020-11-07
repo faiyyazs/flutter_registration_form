@@ -2,7 +2,9 @@
 
 ### About App
 
-A simple Flutter Registration Form Application to demonstrate the usage for MVVM design pattern using ChangeNotifiers, RxDart, Providers (Dependency Injection),Retrofit-Dio & isolation of UI, business logic and data sources.
+A simple Flutter Registration Form Application to demonstrate the usage for MVVM design pattern using ChangeNotifiers, RxDart, Providers (Dependency Injection),Retrofit-Dio along with Test Cases & isolation of UI, business logic and data sources.
+
+The application demonstrates the best practices which can be adopted in flutter application development to avoid code maintaince issues overtime.
 
 ### Components Used
 -  [MVVM Architecture](https://developer.android.com/jetpack/arch/) - Robust, testable, and maintainable app with classes for managing your UI component lifecycle and handling data persistence.
@@ -13,6 +15,10 @@ A simple Flutter Registration Form Application to demonstrate the usage for MVVM
 -  [Mockito](https://flutter.dev/docs/cookbook/testing/unit/mocking) - An Flutter testing framework for unit and runtime UI tests.
 -  [Internationalizing](https://flutter.dev/docs/development/accessibility-and-localization/internationalization) - Flutter provides widgets and classes that help with internationalization and the Flutter libraries themselves are internationalized.
 -  [Retrofit-Dio](https://pub.dev/packages/retrofit) - Retrofit.dart is an dio client generator using source_gen and inspired by Chopper and Retrofit.
+
+## Screenshots
+
+<img src="https://github.com/faiyyazs/flutter_registration_form/blob/main/captures/personal-data-part1.png" alt="drawing" width="200"/><img src="https://github.com/faiyyazs/flutter_registration_form/blob/main/captures/personal-data-part2.png" alt="drawing" width="200"/><img src="https://github.com/faiyyazs/flutter_registration_form/blob/main/captures/ktpaddress.png" alt="drawing" width="200"/><img src="https://github.com/faiyyazs/flutter_registration_form/blob/main/captures/review-data.png" alt="drawing" width="200"/>
 
 ## Data Flow
 Let’s start explaining Data Flow in Clean Architecture as follows,
@@ -47,4 +53,10 @@ Other components include,
 
 ## Support
 
-If you've found an error in this sample, please file an issue.
+## Support
+
+If you've found an error in this sample, please file an issue: [https://github.com/faiyyazs/flutter_registration_form/issues](https://github.com/faiyyazs/flutter_registration_form/issues)
+
+Patches are encouraged, and may be submitted by forking this project and submitting a pull request through GitHub.
+
+
